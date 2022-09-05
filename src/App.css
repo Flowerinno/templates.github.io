@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+
+.app {
+	position: absolute;
+	min-width: 100%;
+	height: 100%;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	font-family: "Roboto", sans-serif;
+	overflow-y: hidden; /* Hide vertical scrollbar */
+	overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.app-header {
+	display: flex;
+	flex-flow: column;
+	width: 100%;
+	height: 40vh;
+	align-items: center;
+	background-color: #1f2937;
+	margin: 0;
+	padding: 0;
+	gap: 35px;
+}
+
+.nav {
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: flex-start;
+	margin-top: 10px;
+	gap: 35%;
+	width: 100%;
+}
+.nav h6 {
+	font-size: 24px;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+.nav span {
+	display: flex;
+	flex-flow: row;
+	gap: 25px;
+}
+
+.nav span a {
+	text-decoration: none;
+	color: #e5e7eb;
+	font-size: 18px;
+}
+
+.app-header-text {
+	width: 100%;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 10%;
+}
+
+.main-image {
+	border: 1px solid white;
+	height: 80%;
+	width: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.main-image img {
+	color: white;
+}
+.main-text {
+	display: flex;
+	flex-flow: column;
+	gap: 5px;
+}
+.main-text h1,
+p {
+	color: white;
+	margin: 0;
+	padding: 0;
+	flex-wrap: wrap;
+	width: 300px;
+}
+.main-text p {
+	opacity: 0.5;
+}
+.main-text h1 {
+	font-size: 48px;
+}
+
+.quote {
+	width: 100%;
+	height: 20vh;
+	background-color: #e5e7eb;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+.quote div {
+	width: 60vw;
+}
+.quote span {
+	font-size: 30px;
+	font-style: italic;
+	color: #1f2937;
+}
+
+.quote p {
+	color: black;
+	display: flex;
+	align-self: flex-end;
+	justify-self: flex-end;
+}
+button {
+	background-color: #3882f6;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	height: 25px;
+	width: 100px;
+}
+
+.information {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 30vh;
+	margin: 0;
+	padding: 0;
+}
+.information h4 {
+	font-size: 36px;
+	color: #1f2937;
+	padding: 0;
+	margin: 0;
+}
+
+.information-boxes {
+	width: 70%;
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 3%;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+	width: 100px;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+	border: 2px solid blue;
+	border-radius: 10px;
+	display: flex;
+	flex-flow: column;
+	gap: 104px;
+}
+
+.information-boxes p {
+	font-size: 12px;
+	color: black;
+	width: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 20vh;
+}
+
+.footer button {
+	background-color: #3882f6;
+	border: 0.5px solid white;
+	color: white;
+	border-radius: 5px;
+	width: 100px;
+}
+.footer-box {
+	width: 70%;
+	height: 10vh;
+	border-radius: 20px;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+	background-color: #3882f6;
+}
+
+.footer-box div {
+	width: 40%;
+	display: flex;
+	flex-flow: column;
+}
+.footer-box h6 {
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	color: white;
+}
+
+.footer-box p {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+.copyright {
+	height: 5vh;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background-color: #1f2937;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
